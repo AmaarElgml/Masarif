@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="homeTextViews">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/days_one</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="homeTextViewsAdd">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/days_one</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/add_button_ripple_yes</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:drawableEnd">@drawable/ic_add</item>
+        <item name="android:drawableTint" tools:targetApi="m">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:elevation">10dp</item>
+    </style>
+
+    <style name="lightAccent" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
+</resources>
